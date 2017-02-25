@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo 6</title>
+    <link href="themes/6/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="themes/6/mcVideoPlugin.js" type="text/javascript"></script>
+    <script src="themes/6/js-image-slider.js" type="text/javascript"></script>
+    <link href="generic.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="div1"><h2>Demo 6 &nbsp; - Video Slider</h2>
+        <p>Demos: <a href="demo1.html">1</a><a href="demo2.html">2</a><a href="demo3.html">3</a><a href="demo4.html">4</a>
+        <a href="demo5.html">5</a><a href="demo6.html" class="current">6</a><a href="demo7.html">7</a><a href="demo8.html">8</a></p>
+    </div>
+    <div id="sliderFrame">
+        <div id="slider">
+            <img src="images/image-slider-1.jpg" alt="Welcome to Menucool Video Slider" />
+            <a class="video" href="http://vimeo.com/18867695">
+                <img src="images/image-slider-2.jpg" alt="" />
+            </a>
+            <a class="video" href="http://www.youtube.com/watch?v=P0G_2tiivxE">
+                <img src="images/image-slider-3.jpg" />
+            </a>
+            <img src="images/image-slider-4.jpg" />
+            <a class="video" href="http://vimeo.com/18560206" autoPlayVideo="true">
+                <img src="images/image-slider-5.jpg" />
+            </a>
+        </div>
+    </div>
+
+    <div class="div2">
+        <h2>Features</h2>
+        <ul>
+            <li>Currently supports <a href="http://www.youtube.com" target="_blank">Youtube</a> and <a href="http://www.vimeo.com" target="_blank">Vimeo</a>
+            </li>
+            <li>iframe based embedding. Works on many different devices, even ones that doesn't support Flash.</li>
+        </ul>
+        <h2>How to embed videos to the slider</h2>
+        <ol>
+            <li>Another script, <em>mcVideoPlugin.js</em> that is available in the download, should be referenced before the <em>js-image-slider.js</em>
+                <div class="code">&lt;script src="themes/6/mcVideoPlugin.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="themes/6/js-image-slider.js" type="text/javascript"&gt;&lt;/script&gt;</div>
+            </li>
+            <li>Wrap slide picture with a link to the video. The link should specify <b>class="video"</b> and its <b>href</b> must be formatted as below without any extra parameters.
+                <div class="code">&lt;a class="video" href="http://vimeo.com/38375192"&gt;
+    &lt;img src="images/img3.jpg" /&gt;
+&lt;/a&gt;
+&lt;a class="video" href="http://www.youtube.com/watch?v=AQ-3aRhvFwU"&gt;
+    &lt;img src="images/img4.jpg" alt="" /&gt;
+&lt;/a&gt;</div>
+                <br />Note:                
+                <ul>
+                    <li><b>autoPlayVideo="true"</b> and/or <b>autoNextOnVideoFinished="false"</b> can be added to the link to override the slider's default behavior.
+                        Please visit our online Demo 6: <a href="http://www.menucool.com/video-slider">Video Slider</a> for more details.
+                    </li>
+                    <li>This demo requires a valid license for supporting the video feature. It won't work on the production server (though it works locally) if not licensed.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
