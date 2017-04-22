@@ -8,7 +8,7 @@
 <div id="section1" class="container-fluid startingSection">
 	<div id="profiles">
 			<center>
-		<h1 class="headerStyle1">WELCOME TO SHOW TIME</h1><br /><br />
+		<h1 class="headerStyle1">---WELCOME TO SHOW TIME---</h1><br /><br />
 		<div id="profile1" class="profile">
 			<img src="img/cv/a.jpg" class="img-circle" width="200" height="1"><br />
 			<h3>Anuradha Gunasinghe</h3>
