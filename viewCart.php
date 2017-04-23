@@ -24,7 +24,7 @@ if (isset($_SESSION["cart"])) {
 }else{
 	$cart=array();
 }
-
+//
 $prodNames=array();
 $prodIds=array();
 $transactionID="";
