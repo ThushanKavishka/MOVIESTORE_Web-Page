@@ -35,7 +35,7 @@ session_start();
 		}
 		mysqli_free_result($result);
 	}*/
-
+//validation signup
 	 if (isset($_POST["signUp"])) {
 
 		$isNew=true;
